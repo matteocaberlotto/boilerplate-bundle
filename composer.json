@@ -1,0 +1,30 @@
+{
+    "name": "teo/boilerplate-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Boilerplate bundle",
+    "keywords": ["Boilerplate", "boilerplate", "html5", "bootstrap"],
+    "homepage": "https://github.com/matteocaberlotto/boilerplate-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matteo Caberlotto",
+            "email": "mcaber@gmail.com",
+            "homepage": "https://github.com/matteocaberlotto/boilerplate-bundle"
+        },
+        {
+            "name": "Sonata Community",
+            "homepage": "https://github.com/sonata-project/SonataAdminBundle/contributors"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-0": { "Teo\\BoilerplateBundle": "" }
+    },
+    "target-dir": "Teo/BoilerplateBundle",
+    "minimum-stability": "dev"
+}
