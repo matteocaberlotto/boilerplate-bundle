@@ -10,10 +10,6 @@
             "name": "Matteo Caberlotto",
             "email": "mcaber@gmail.com",
             "homepage": "https://github.com/matteocaberlotto/boilerplate-bundle"
-        },
-        {
-            "name": "Sonata Community",
-            "homepage": "https://github.com/sonata-project/SonataAdminBundle/contributors"
         }
     ],
     "require": {
