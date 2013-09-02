@@ -28,7 +28,7 @@
             <script src="{{ asset('bundles/teoboilerplate/js/vendor/modernizr-2.6.2.min.js') }}"></script>
         {% endblock %}
     </head>
-    <body>
+    <body class="{% block body_classes %}{% endblock %}">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
