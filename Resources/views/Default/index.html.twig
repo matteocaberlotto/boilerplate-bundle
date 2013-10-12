@@ -44,11 +44,12 @@
         {% block main_append %}{% endblock %}
 
         {% block javascript %}
+        {# uncomment following to use google api version with local fallback #}
         {#
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        #}
             <script>window.jQuery || document.write('<script src="{{ asset('bundles/teoboilerplate/js/vendor/jquery-1.9.1.min.js') }}"><\/script>')</script>
-
+        #}
+            <script src="{{ asset('bundles/teoboilerplate/js/vendor/jquery-1.9.1.min.js') }}"></script>
             <script src="{{ asset('bundles/teoboilerplate/js/vendor/jquery-ui.js') }}"></script>
             <script src="{{ asset('bundles/teoboilerplate/js/vendor/bootstrap.js') }}"></script>
             <script src="{{ asset('bundles/teoboilerplate/js/vendor/json2-min.js') }}"></script>
