@@ -6,6 +6,12 @@ class Language
 {
     public function provide($container)
     {
-        return $container->getParameter('teo_boilerplate.html_language');
+        $locale = $container->get('request')->get('_locale');
+
+        if ($locale) {
+            return $locale;
+        }
+
+        return $container->getParameter('locale');
     }
 }
