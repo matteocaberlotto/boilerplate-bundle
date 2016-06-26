@@ -27,6 +27,18 @@
 
             <script src="{{ asset('bundles/teoboilerplate/js/vendor/modernizr-2.6.2.min.js') }}"></script>
         {% endblock %}
+
+        {% block analytics %}
+            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+            <!--
+            <script>
+                var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+                (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g,s)}(document,'script'));
+            </script>
+            -->
+        {% endblock analytics %}
     </head>
     <body class="{% block body_classes %}{% endblock %}">
         <!--[if lt IE 7]>
@@ -56,18 +68,6 @@
             <script src="{{ asset('bundles/teoboilerplate/js/vendor/underscore.js') }}"></script>
             <script src="{{ asset('bundles/teoboilerplate/js/vendor/backbone.js') }}"></script>
         {% endblock javascript %}
-
-        {% block analytics %}
-            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-            <!--
-            <script>
-                var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-                (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-                g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-                s.parentNode.insertBefore(g,s)}(document,'script'));
-            </script>
-            -->
-        {% endblock analytics %}
 
     </body>
 </html>
